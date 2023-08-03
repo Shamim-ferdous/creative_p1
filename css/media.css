@@ -1,0 +1,150 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 60px;
+}
+.btn_c {
+    padding: 8px 30px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0;
+    font-size: 40px;
+}
+.b_p {
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+/*about*/
+.ab_img {
+    padding: 0 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 0 26px;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	justify-content: center;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 60px;
+}
+.btn_c {
+    padding: 10px 35px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0;
+    font-size: 45px;
+}
+.b_p {
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+/*about*/
+.ab_img {
+    padding: 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 0 26px;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	justify-content: center;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*common*/
+.c_padd{
+	padding-bottom: 80px;
+}
+.btn_c {
+    padding: 10px 35px;
+}
+/*header*/
+.menu ul li a {
+    padding: 5px 0 !important;
+}
+/*banner*/
+.banner{
+	padding-bottom: 50px;
+}
+.b_h1 {
+    padding: 0px 30px;
+    font-size: 45px;
+}
+/*about*/
+.ab_img {
+    padding: 30px;
+}
+.ab_text{
+	text-align: center;
+    padding: 15px 26px 0;
+}
+.ab_p {
+    padding-top: 15px;
+    line-height: 22px;
+}
+.ab_bg{
+	justify-content: center;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner*/
+.b_h1 {
+    padding: 0 5px;
+}
+
+/*about*/
+.ab_text{
+	padding: 0;
+}
+.ab_p {
+    padding-top: 20px;
+    line-height: 24px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
